@@ -1,0 +1,33 @@
+
+;; ----- smex-history -----
+(
+ package-install
+ package-list-packages
+ package-menu-mode
+ package-menu-mark-delete
+ list-packages
+ magit-status
+ load-theme
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 17)
+ (load-theme . 2)
+ (set-file-modes . 1)
+ (nodejs-repl . 2)
+ (find-function-at-point . 1)
+ (find-function . 1)
+ (set-variable . 1)
+ (clipboard-yank . 1)
+ (magit-status . 8)
+ (magit-init . 1)
+ (magit-commit-mode . 1)
+ (magit-log-mode . 1)
+ (auto-complete . 3)
+ (package-list-packages . 4)
+ (package-menu-mark-delete . 3)
+ (package-menu-mode . 5)
+ (list-packages . 1)
+ (flymake-jshint-load . 1)
+)
