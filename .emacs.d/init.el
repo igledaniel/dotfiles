@@ -45,20 +45,7 @@
 
 
  
-;; auto-complete
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete/dict")
+
  
-(set-default 'ac-sources
-'(ac-source-abbrev
-ac-source-dictionary
-ac-source-words-in-buffer
-ac-source-words-in-same-mode-buffers
-ac-source-semantic))
- 
-(ac-config-default)
- 
-(dolist (m '(c-mode c++-mode java-mode python-mode html-mode))
-(add-to-list 'ac-modes m))
- 
-(global-auto-complete-mode t)
+(dolist (m '(c-mode c++-mode java-mode python-mode html-mode)))
+
