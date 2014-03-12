@@ -15,8 +15,7 @@
 (package-install p))
 (require p))
  
-(require-package 'auto-complete)
-
+(load-theme 'misterioso)
  
 ;; ------------------------------------------------------------------------------
  
