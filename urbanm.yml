@@ -1,0 +1,15 @@
+#~/.tmuxinator/urbanm.yml                                                                                                                                                           
+                                                                                                                                                                                     
+project_name: proyecto                                                                                                                                                               
+project_root: /home/proyecto                                                                                                                                                       
+#socket_path: /tmp/tmux-tula                                                                                                                                                         
+#pre_tab: rvm use 1.9.2-p180@tulaapp                                                                                                                                                 
+windows:                                                                                                                                                                             
+  - editor:                                                                                                                                                                          
+      layout: f98d,230x59,0,0[230x40,0,0,0,230x18,0,41,4]                                                                                                                            
+      panes:                                                                                                                                                                         
+        - emacs                                                                                                                                                                      
+        - #empty                                                                                                                                                                     
+  - server: grunt serve                                                                                                                                                              
+  - logs:                                                                                                                                                                            
+  - console: bash 
